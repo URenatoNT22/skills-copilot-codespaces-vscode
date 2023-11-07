@@ -1,8 +1,11 @@
-function skillsMember(){
-    var skill = document.getElementById("skills").value;
-    var skillList = document.getElementById("skillList");
-    var li = document.createElement("li");
-    li.appendChild(document.createTextNode(skill));
-    skillList.appendChild(li);
+/**
+ * Función que representa a un miembro de Skills.
+ */
+function skillsMember() {
+    var member = {
+        name: "Skills",
+        age: 24,
+        skills: ["HTML", "CSS", "JS"]
+    };
+    console.log(member);
 }
-    
